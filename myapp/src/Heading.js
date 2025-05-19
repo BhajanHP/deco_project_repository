@@ -1,14 +1,22 @@
 import "./index.css";
-import img1 from "./Landing-logo.jpg";
-import img2 from "./collage_photo.jpg";
+import img1 from "./Landing-5.jpg";
+import img2 from "./Landing-logo.jpg";
 
-function Header(props) {
+function Header() {
   return (
     <div className="header-container">
-      <img
-        src={img1}
-        alt="Landingpage"
-        className="header-image"
+      {/* Desktop Image (shown by default) */}
+      <img 
+        src={img1} 
+        alt="Landing page" 
+        className="desktop-img" 
+      />
+      
+      {/* Mobile Image (hidden by default) */}
+      <img 
+        src={img2} 
+        alt="Landing logo" 
+        className="mobile-img" 
       />
     </div>
   );

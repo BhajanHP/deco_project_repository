@@ -12,4 +12,46 @@ code {
     monospace;
 }
 
+/* Base styles for all devices */
+.header-container {
+  overflow: hidden;
+  position: relative;
+}
 
+/* Desktop styles (default) */
+.header-container {
+  width: 60%;
+  height: 100vh;
+}
+
+.desktop-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block; /* Show by default */
+}
+
+.mobile-img {
+  display: none; /* Hide by default */
+}
+
+/* Mobile styles (phones) */
+@media only screen and (max-width: 768px) {
+  .header-container {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+  }
+  
+  .desktop-img {
+    display: none; /* Hide on mobile */
+  }
+  
+  .mobile-img {
+    display: block; /* Show on mobile */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
