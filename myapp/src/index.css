@@ -55,3 +55,31 @@ code {
     object-fit: cover;
   }
 }
+
+
+.contact-item a {
+  color: #cccccc; 
+  text-decoration: none;
+}
+
+
+/* Tablet styles (between 768px and 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header-container {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+

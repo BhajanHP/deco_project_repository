@@ -12,21 +12,25 @@ function Footer() {
            lip butter and scrub, body polishing oil, body wash, and even a coffee car perfume. </p>
              </div>
         
-        <div className="footer-section">
-          <h3>Contact Info</h3>
-          <div className="contact-item">
-            <i className="fas fa-map-marker-alt"></i>
-            <span>Chikkamagaluru - 577101</span>
+          <div className="footer-section">
+            <h3>Contact Info</h3>
+            
+            <div className="contact-item">
+              <i className="fas fa-map-marker-alt"></i>
+              <span>Chikkamagaluru - 577101</span>
+            </div>
+
+            <div className="contact-item">
+              <i className="fas fa-phone"></i>
+              <a href="tel:+919964040782">+91 9964040782</a>
+            </div>
+
+            <div className="contact-item">
+              <i className="fas fa-envelope"></i>
+              <a href="mailto:decosip239@gmail.com">decosip239@gmail.com</a>
+            </div>
           </div>
-          <div className="contact-item">
-            <i className="fas fa-phone"></i>
-            <span>+91 9964040782</span>
-          </div>
-          <div className="contact-item">
-            <i className="fas fa-envelope"></i>
-            <span>decosip239@gmail.com</span>
-          </div>
-        </div>
+
         
         <div className="footer-section">
           <h3>Follow Us</h3>
