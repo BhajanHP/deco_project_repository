@@ -1,10 +1,10 @@
-import img4 from './Images/body_wash.jpg';
+import img4 from './Images/body_wash.png';
 import img3 from './Images/butter.jpg';
-import img7 from './Images/car_perfume.jpg';
+import img7 from './Images/car_perfume.png';
 import img6 from './Images/face_wash.jpg';
 import img2 from './Images/lip_scrub.jpg';
-import img5 from './Images/oil.jpg';
-import img1 from './Images/scrub.jpg';
+import img5 from './Images/oil.png';
+import img1 from './Images/scrub.png';
 import img8 from './Images/solid_perfume.jpg';
 
 import './App.css';
@@ -18,6 +18,8 @@ function Products() {
         { img: img5, name: "Coffee Body Polishing oil "},
         { img: img6, name: "Coffee Foaming face wash" },
         { img: img7, name: "Coffee Car Perfume"},
+        { img: img8, name: "Coffee Soild Perfume" },
+         { img: img7, name: "Coffee Car Perfume"},
         { img: img8, name: "Coffee Soild Perfume" }
     ];
 
