@@ -1,11 +1,15 @@
 import img4 from './Images/body_wash.png';
-import img3 from './Images/butter.jpg';
-import img7 from './Images/car_perfume.png';
-import img6 from './Images/face_wash.jpg';
+import img3 from './Images/lip_butter.png';
+import img7 from './Images/car_perfume.jpg';
+
+import img6 from './Images/foaming_face_wash.jpg';
+// import img6 from './Images/face_wash.jpg';
 import img2 from './Images/lip_scrub.jpg';
-import img5 from './Images/oil.png';
-import img1 from './Images/scrub.png';
+import img5 from './Images/oil.jpg';
+import img1 from './Images/scrub.jpg';
 import img8 from './Images/solid_perfume.jpg';
+import img9 from './Images/face_wash.jpg';
+import img10 from './Images/soap.jpg';
 
 import './App.css';
 
@@ -19,8 +23,8 @@ function Products() {
         { img: img6, name: "Coffee Foaming face wash" },
         { img: img7, name: "Coffee Car Perfume"},
         { img: img8, name: "Coffee Soild Perfume" },
-         { img: img7, name: "Coffee Car Perfume"},
-        { img: img8, name: "Coffee Soild Perfume" }
+         { img: img9, name: "Face Wash"},
+        { img: img10, name: "Soap" }
     ];
 
     return (
