@@ -23,8 +23,8 @@ function Products() {
         { img: img6, name: "Coffee Foaming face wash" },
         { img: img7, name: "Coffee Car Perfume"},
         { img: img8, name: "Coffee Soild Perfume" },
-         { img: img9, name: "Face Wash"},
-        { img: img10, name: "Soap" }
+         { img: img9, name: "Coffee Face Wash"},
+        { img: img10, name: "Coffee Soap" }
     ];
 
     return (
