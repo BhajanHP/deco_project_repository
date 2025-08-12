@@ -206,7 +206,7 @@ body {
   align-items: center;
 }
 .product-image {
-  max-width: 100%;
+  max-width: 90%;
   max-height: 90%;
   object-fit: contain;
 }
@@ -277,11 +277,9 @@ body {
         width: calc(50% - 50px);
     }
 
-    .product-item {
- 
+  .product-item {
   margin-left: 40px;
   margin-right: 40px;
- 
 }
 
 
@@ -291,5 +289,37 @@ body {
   .footer-content{
       margin-left: 120PX;
     }
+}
+
+
+.soap-details {
+  text-align: left;
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px; 
+  line-height: 1.5; 
+  color: #333;
+}
+
+
+.soap-images {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.soap-img {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.soap-details h1{
+
+}
+
+
+.soap-details p{
+  
 }
 
