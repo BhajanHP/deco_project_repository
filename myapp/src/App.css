@@ -273,7 +273,7 @@ body {
     }
 
     .product-image {
-      margin-left: 40px;
+      margin-left: 25px;
 }
 }
 
@@ -347,4 +347,37 @@ body {
 .soap-details p{
   padding-bottom: 8px;
 }
+.review-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 15px;
+  justify-content: center;
+}
 
+.review-img {
+  max-width: 100%;
+  width: 35%; /* Default for large screens */
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.small-review-img {
+  width: 25%; /* Smaller size for reviewImg3 and reviewImg4 */
+  gap: 60px;
+}
+
+.reviewsHeading {
+  text-align: center;
+}
+
+/* On small devices */
+@media (max-width: 768px) {
+  .review-img {
+    width: 100%;
+  }
+  .small-review-img {
+    width: 100%;
+  }
+}
