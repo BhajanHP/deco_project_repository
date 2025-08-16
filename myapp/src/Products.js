@@ -1,4 +1,4 @@
-import img4 from './Images/body_wash.png';
+import img4 from './Images/body_wash.jpg';
 import img3 from './Images/lip_butter.jpg';
 import img7 from './Images/car_perfume.jpg';
 import img6 from './Images/foaming_face_wash.png';
