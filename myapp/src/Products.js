@@ -1,7 +1,7 @@
 import img4 from './Images/body_wash.jpg';
 import img3 from './Images/lip_butter.jpg';
 import img7 from './Images/car_perfume.jpg';
-import img6 from './Images/foaming_face_wash.png';
+import img6 from './Images/foaming_face_wash.jpg';
 import img2 from './Images/lip_scrub.jpg';
 import img5 from './Images/oil.png';
 import img1 from './Images/scrub.jpg';
@@ -10,6 +10,7 @@ import img9 from './Images/face_wash.jpg';
 import img10 from './Images/soap.jpg';
 import img11 from './Images/body_lotion.jpg';
 import img12 from './Images/Shampoo.png';
+import img13 from './Images/bathing_glove.jpg';
 
 import { Link } from 'react-router-dom';
 
@@ -28,7 +29,8 @@ function Products() {
         { img: img9, name: "Coffee Face Wash" },
         { img: img10, name: "Coffee Soap" },
         { img: img11, name: "Body Lotion" },
-        { img: img12, name: "Coffee Shampoo" }
+        { img: img12, name: "Coffee Shampoo" },
+        { img: img13, name: "Marocco Bathing Glove & Exfoliator" }
     ];
 
     return (
