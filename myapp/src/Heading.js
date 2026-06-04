@@ -11,7 +11,7 @@ function Header() {
         alt="Landing page" 
         className="desktop-img" 
       />
-      
+            
       {/* Mobile Image (hidden by default) */}
       <img 
         src={img2} 
