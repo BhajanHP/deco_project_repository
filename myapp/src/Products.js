@@ -42,11 +42,11 @@ function Products() {
         { img: img11, name: "Magic Oil" },
         { img: img12, name: "Coffee Perfume" },
 
-         { img: img12, name: "Body Lotion" },
-          { img: img12, name: "Coffee Face Wash" },
-           { img: img12, name: "Coffee Shampoo" },
-            { img: img12, name: "Coffee Soap" },
-             { img: img12, name: "Bathing Glove" },
+         { img: img13, name: "Body Lotion" },
+          { img: img14, name: "Coffee Face Wash" },
+           { img: img15, name: "Coffee Shampoo" },
+            { img: img16, name: "Coffee Soap" },
+             { img: img17, name: "Bathing Glove" },
 
 
       ],
