@@ -13,6 +13,12 @@ import img10 from './Images/eucalyptus_oil.png';
 import img11 from './Images/magic_oil.png';
 import img12 from './Images/coffee_perfume.jpeg';
 
+import img13 from './Images/body_lotion.jpeg';
+import img14 from './Images/face_wash.jpeg';
+import img15 from './Images/Shampoo.png';
+import img16 from './Images/soap.png';
+import img17 from './Images/bathing_glove.jpeg';
+
 import './App.css';
 
 function Products() {
@@ -35,6 +41,14 @@ function Products() {
         { img: img10, name: "Eucalyptus Oil" },
         { img: img11, name: "Magic Oil" },
         { img: img12, name: "Coffee Perfume" },
+
+         { img: img12, name: "Body Lotion" },
+          { img: img12, name: "Coffee Face Wash" },
+           { img: img12, name: "Coffee Shampoo" },
+            { img: img12, name: "Coffee Soap" },
+             { img: img12, name: "Bathing Glove" },
+
+
       ],
     },
     {
