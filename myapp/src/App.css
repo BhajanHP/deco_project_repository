@@ -261,8 +261,6 @@ body {
   overflow: hidden;
 }
 
-<<<<<<< HEAD
-=======
 .product-image {
   max-width: 100%;
   max-height: 90%;
@@ -273,7 +271,6 @@ body {
 .card-frame:hover .product-image {
   transform: scale(1.08); /* subtle zoom on hover */
 }
->>>>>>> ed8e34d (latest commit)
 
 .product-name {
   width: 100%; /* Make text background span full width */
@@ -286,16 +283,7 @@ body {
   border-radius: 0 0 17px 17px; /* inner radius */
 }
 
-<<<<<<< HEAD
-.product-image {
-  max-width: 90%;
-  max-height: 90%;
-  object-fit: contain;
-}
-
-=======
 /* ===== Phone: 1 per row ===== */
->>>>>>> ed8e34d (latest commit)
 @media (max-width: 600px) {
   .products-container {
     gap: 30px;
@@ -324,140 +312,8 @@ body {
   width: 100%;
 }
 
-<<<<<<< HEAD
-/* For phones - 1 item per row */
-@media (max-width: 600px) {
-    .products-container {
-        gap: 40px;
-        padding: 30px;
-    }
-    
-    .product-item {
-        width: 100%;
-    }
-    
-    .image-container {
-        width: 300px;
-        height: 300px;
-    }
-    
-    .product-name {
-        font-size: 24px;
-    }
-
-    .product-image {
-      margin-left: 25px;
-}
-}
-
-/* For all larger devices - 2 items per row */
-@media (min-width: 801px) {
-    .product-item {
-        width: calc(50% - 50px);
-    }
-
-  .product-item {
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-
-}
-
-@media (min-width: 800px) {
-  .footer-content{
-      margin-left: 120PX;
-    }
-}
-
-.soap-details {
-  text-align: left;
-  padding: 30px;
-}
-
-.soap-images {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr); /* default: 1 per row for mobile */
-  gap: 20px;
-  justify-items: center; /* center images horizontally */
-}
-
-.soap-img {
-  width: 70%;       /* smaller size */
-  max-width: 350px; /* keeps them from being huge on desktop */
-  height: auto;
-  object-fit: contain;
-  border-radius: 8px;
-}
-
-/* For tablets/desktops */
-@media (min-width: 768px) {
-  .soap-images {
-    grid-template-columns: repeat(3, 1fr); /* 3 per row */
-  }
-}
-
-
-/* .soap-details {
-  text-align: left;
-  padding: 30px;
-}
-.soap-details {
-  text-align: left;
-  padding: 30px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1px; 
-  line-height: 1.5; 
-  color: #333;
-} */
-
-
-.soap-details h1{
-
-}
-
-
-.soap-details p{
-  padding-bottom: 8px;
-}
-.review-images {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  margin-top: 15px;
-  justify-content: center;
-}
-
-.review-img {
-  max-width: 100%;
-  width: 35%; /* Default for large screens */
-  height: auto;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
-.small-review-img {
-  width: 25%; /* Smaller size for reviewImg3 and reviewImg4 */
-  gap: 60px;
-}
-
-.reviewsHeading {
-  text-align: center;
-}
-
-/* On small devices */
-@media (max-width: 768px) {
-  .review-img {
-    width: 100%;
-  }
-  .small-review-img {
-    width: 100%;
-  }
-}
-=======
 @media (min-width: 800px) {
   .footer-content {
     margin-left: 120PX;
   }
 }
->>>>>>> ed8e34d (latest commit)
