@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import img4 from './Images/body_wash.jpg';
-import img3 from './Images/butter.jpg';
+import img3 from './Images/lip_butter.jpeg';
 import img7 from './Images/car_perfume.jpg';
 import img6 from './Images/face_wash.jpg';
 import img2 from './Images/lip_scrub.jpg';
@@ -19,11 +19,14 @@ import img15 from './Images/Shampoo.png';
 import img16 from './Images/soap.png';
 import img17 from './Images/bathing_glove.jpeg';
 
+import img18 from './Images/b_coffee.jpeg';
+import img19 from './Images/c_instant_coffee.jpeg';
+import img20 from './Images/uf_instant_coffee.jpeg';
+import img21 from './Images/v_instant_coffee.jpeg';
+
 import './App.css';
 
 function Products() {
-  const [activeTab, setActiveTab] = useState("cosmetic");
-
   const sections = [
     {
       id: "cosmetic",
@@ -41,21 +44,22 @@ function Products() {
         { img: img10, name: "Eucalyptus Oil" },
         { img: img11, name: "Magic Oil" },
         { img: img12, name: "Coffee Perfume" },
-
-         { img: img13, name: "Body Lotion" },
-          { img: img14, name: "Coffee Face Wash" },
-           { img: img15, name: "Coffee Shampoo" },
-            { img: img16, name: "Coffee Soap" },
-             { img: img17, name: "Bathing Glove" },
-
-
+        { img: img13, name: "Body Lotion" },
+        { img: img14, name: "Coffee Face Wash" },
+        { img: img15, name: "Coffee Shampoo" },
+        { img: img16, name: "Coffee Soap" },
+        { img: img17, name: "Bathing Glove" },
       ],
     },
     {
       id: "coffee",
       title: "Coffee Products",
-      // 👇 Empty for now. Add images at the top, then push items here.
-      items: [],
+      items: [
+        { img: img18, name: "Black Coffee" },
+        { img: img19, name: "Chocolate Instant Coffee" },
+        { img: img20, name: "Unflavoured Instant Coffee" },
+        { img: img21, name: "Vanilla Instant Coffee" },
+      ],
     },
     {
       id: "soap",
@@ -65,7 +69,11 @@ function Products() {
     },
   ];
 
-  const current = sections.find((s) => s.id === activeTab);
+  const [activeTab, setActiveTab] = useState(() =>
+    sections.find((s) => Array.isArray(s.items) && s.items.length > 0)?.id || sections[0].id
+  );
+
+  const current = sections.find((s) => s.id === activeTab) || sections[0];
 
   return (
     <>
