@@ -23,6 +23,7 @@ import img18 from './Images/b_coffee.jpeg';
 import img19 from './Images/c_instant_coffee.jpeg';
 import img20 from './Images/uf_instant_coffee.jpeg';
 import img21 from './Images/v_instant_coffee.jpeg';
+import img22 from './Images/filter.png';
 
 import './App.css';
 
@@ -59,13 +60,17 @@ function Products() {
         { img: img19, name: "Chocolate Instant Coffee" },
         { img: img20, name: "Unflavoured Instant Coffee" },
         { img: img21, name: "Vanilla Instant Coffee" },
+        { img: img22, name: "Filter Coffee Powder" },
       ],
     },
     {
       id: "soap",
-      title: "Coffee Soap Products",
+      title: "Soap Products",
       // 👇 Empty for now. Add images at the top, then push items here.
-      items: [],
+
+      items: [
+         { img: img16, name: "Coffee Soap" },
+      ],
     },
   ];
 
